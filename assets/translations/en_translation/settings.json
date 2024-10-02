@@ -1,0 +1,11 @@
+{
+  "app_title": "Settings",
+  "profile": "Profile",
+  "notifications": "Notifications",
+  "privacy": "Privacy",
+  "language": "Language",
+  "theme": "Theme",
+  "logout": "Log Out",
+  "save_changes": "Save Changes",
+  "changes_saved": "Changes saved successfully."
+}
