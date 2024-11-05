@@ -1,0 +1,68 @@
+name: idly_factory
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_localization:
+  get:
+  intl:
+  shared_preferences:
+  http:
+  google_maps_flutter:
+  geolocator: ^13.0.1
+  responsive_framework:
+  flutter_screenutil:
+  icons_plus:
+  smooth_page_indicator:
+  get_storage:
+  shimmer:
+  qr_flutter: ^4.0.0
+  provider: ^6.0.0
+  lottie: ^2.0.0
+
+
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.10.0
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/data.json
+    - assets/images/logo/
+    - assets/images/icons/
+    - assets/images/background/
+    - assets/images/onboard_images/
+    - assets/translations/en.json
+    - assets/translations/us.json
+    - assets/translations/fr.json
+
+# flutter_icons should be at the root level, not nested under flutter
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/onboard_images/factory_logo.jpg"
+
+fonts:
+  - family: RobotoSerif
+    fonts:
+      - asset: assets/fonts/roboto/RobotoSerif-VariableFont_GRAD,opsz,wdth,wght.ttf
+      - asset: assets/fonts/roboto/RobotoSerif-Italic-VariableFont_GRAD,opsz,wdth,wght.ttf
+        style: italic
+
+  - family: Lobster
+    fonts:
+      - asset: assets/fonts/lobster/Lobster-Regular.ttf
+        weight: 400
